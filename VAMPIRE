@@ -2,6 +2,6 @@
 import platform
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import B64
+    import IMA64
 elif bit == '32bit':
-    import B32
+    print("WAIT COMING")

@@ -2,6 +2,8 @@
 import platform
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import IMA64
-elif bit == '32bit':
-    import IMA32
+    import ALL_64
+if bit == '32bit':
+    print('SORRY BRO 32 BIT WILL COMING')
+if bit == '128':
+    print('SORRY BRO 128 BIT WILL COMING')

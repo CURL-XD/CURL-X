@@ -1,7 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/python
-import platform
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import BYTE64
-elif bit == '32bit':
-    print('sorry bro have not')

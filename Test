@@ -1,3 +1,0 @@
-import os
-os.system('chmod 777 testtt')
-os.system('./testtt')

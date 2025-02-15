@@ -1,1 +1,1 @@
-import END
+import INIT

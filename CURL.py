@@ -1,2 +1,3 @@
 #!/data/data/com.termux/files/usr/bin/python
-import IMRAN
+import os
+os.system('chmod 777 * && ./IMRAN')

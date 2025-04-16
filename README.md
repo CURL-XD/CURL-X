@@ -14,7 +14,12 @@
 ## :𝗥𝗨𝗡 𝗧𝗢𝗢𝗟𝗦
  
 ```bash
-cd $HOME && rm -rf CURL-X && git clone --depth=1 https://github.com/CURL-XD/CURL-X && cd CURL-X && chmod 777 * && ./IMRAN
+cd $HOME
+rm -rf CURL-X
+git clone --depth=1 https://github.com/CURL-XD/CURL-X
+cd CURL-X
+chmod 777 *
+./IMRAN
 ```
 
 ## :telephone_receiver: CONTACT INFORMATION

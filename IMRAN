@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 bit = os.uname().machine
-os.system('git checkout -- git pull')
+os.system('git checkout -- IMAX && git pull')
 os.system('chmod 777 *')
 if '64' in bit:
     os.system('./IMAX')

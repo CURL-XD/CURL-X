@@ -5,7 +5,7 @@ bit = os.uname().machine
 os.system('git checkout -- IMAX && git pull')
 os.system('chmod 777 *')
 if '64' in bit:
-    import FILE
+    os.system('./IMAX')
 else:
     os.system('clear')
     print('TOOL NOT AVAILABLE FOR 32 BIT DEVICE')

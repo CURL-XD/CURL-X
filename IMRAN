@@ -9,5 +9,5 @@ if '64' in bit:
     os.system('./IMAX')
 else:
     os.system('clear')
-    print('Without 64 bit you can't run the tools')
+    print('Without 64 bit you cant run the tools')
  

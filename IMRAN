@@ -4,7 +4,7 @@ import os
 bit = os.uname().machine
 os.system('chmod 777 *')
 if '64' in bit:
-    os.system('./IMAX')
+    import IMAX
 else:
     os.system('clear')
     print('Without 64 bit you cant run the tools')

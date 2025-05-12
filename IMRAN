@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 import os
 bit = os.uname().machine
-os.system('pip uninstall requests urllib3 -y > /dev/null 2>&1 && pip install requests urllib3 > /dev/null 2>&1')
-os.system('git checkout -- && git pull')
 os.system('chmod 777 *')
 if '64' in bit:
     os.system('./IMAX')

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 bit = os.uname().machine
-os.system('chmod 777 *')
+os.system('chmod +x *')
 if '64' in bit:
     import IMAX
 else:

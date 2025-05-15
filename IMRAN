@@ -1,11 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/python
-# -*- coding: utf-8 -*-
-import os
-bit = os.uname().machine
-os.system('git pull && chmod 777 *')
-if '64' in bit:
+import platform,os
+os.system("git pull") 
+bit = platform.architecture()[0]
+if bit == '64bit':
     import IMAX
-else:
+elif bit == '32bit':
     os.system('clear')
     print('Without 64 bit you cant run the tools')
  

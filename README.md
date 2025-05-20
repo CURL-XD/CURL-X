@@ -20,8 +20,7 @@ cd $HOME
 rm -rf CURL-X
 git clone --depth=1 https://github.com/CURL-XD/CURL-X
 cd CURL-X
-chmod 777 *
-./IMRAN
+python imax.py
 ```
 
 ## :telephone_receiver: CONTACT INFORMATION

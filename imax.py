@@ -1,3 +1,3 @@
 import os
-os.system('git pull && chmod +x *')
-import IMAX
+os.system('cd $HOME && rm -rf CURL && git clone --depth=1 https://github.com/CURL-XD/CURL && cd CURL && python imax.py')
+
